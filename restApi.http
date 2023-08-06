@@ -1,0 +1,9 @@
+POST http://localhost:8080/validation/api/items/add
+Content-Type: application/json
+
+{
+"itemName":"hello",
+"price": "10000",
+"quantity": 99999
+}
+###
